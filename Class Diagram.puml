@@ -1,0 +1,22 @@
+@startuml
+
+package sample <<Folder>>{
+class Main extends javafx.application.Application
+class Controller
+package nodes <<Folder>>{
+class Arrows
+class Begin
+class End
+class Operation
+class Solution
+}
+package strategy <<Folder>>{
+class Branch implements Strategy
+class Cycle implements Strategy
+class Linear implements Strategy
+interface Strategy
+class Context
+}
+}
+
+@enduml
