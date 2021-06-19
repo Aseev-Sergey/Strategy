@@ -19,15 +19,15 @@
 
 ![1](https://user-images.githubusercontent.com/85245803/122641378-a5b7d380-d10d-11eb-8499-3641cd6782a3.png)
 
-Выбор стратегии "Передвинуть"
+Выбор стратегии "Передвинуть" (Фигура перемещается в пределах окна)
 
 ![2](https://user-images.githubusercontent.com/85245803/122641410-e9aad880-d10d-11eb-96fe-5404ed121649.png)
 
-"Изменить"
+"Изменить" (Фигура изменяется в размере)
 
 ![3](https://user-images.githubusercontent.com/85245803/122641413-ec0d3280-d10d-11eb-92a2-e9967b045dfd.png)
 
-"Добавить"
+"Добавить" (К фигуре прикрепляется соединяющая стрелка)
 
 ![4](https://user-images.githubusercontent.com/85245803/122641418-ef082300-d10d-11eb-932e-c8be4d71aa0f.png)
 
