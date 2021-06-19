@@ -2,18 +2,12 @@
 
 package sample <<Folder>>{
 class Main extends javafx.application.Application
-class Controller
-package nodes <<Folder>>{
-class Arrows
-class Begin
-class End
-class Operation
-class Solution
-}
+class Controller implements javafx.fxml.Initializable
+class Node
 package strategy <<Folder>>{
-class Branch implements Strategy
-class Cycle implements Strategy
-class Linear implements Strategy
+class AddArrow implements Strategy
+class ChangePosition implements Strategy
+class ChangeSize implements Strategy
 interface Strategy
 class Context
 }
