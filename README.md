@@ -4,32 +4,36 @@
 ## Назначение программы
 Показать практическое применение шаблона "Стратегия" по теме "Диаграмма деятельности".
 
-Для целевой задачи объявляется интерфейс Strategy, общий для всех алгоритмов.
+Для целевой задачи объявляется интерфейс Strategy, общий для всех стратегий.
 
-Классы Linear, Branch и Cycle  реализуют в соответствии с тем или иным алгоритмом. 
+Классы AddArrow, ChangePosition и ChangeSize  реализуют в соответствии с тем или иным действием. 
 
-Класс Сontext содержит указатель на объект абстрактного типа Strategy и предназначен для переадресации пользовательских запросов конкретному алгоритму. 
+Класс Сontext содержит указатель на объект абстрактного типа Strategy и предназначен для переадресации пользовательских запросов конкретному действию. 
 ## Диаграмма классов
 
-![0](https://user-images.githubusercontent.com/85245803/121810949-597f1600-cc6b-11eb-9a1c-3047c264c247.png)
+![0](https://user-images.githubusercontent.com/85245803/122641376-9c2e6b80-d10d-11eb-8326-8ade8ea93dd8.png)
 
 ## Работа программы
 
 Запуск программы
 
-![1](https://user-images.githubusercontent.com/85245803/121811199-59334a80-cc6c-11eb-8f8c-eeb5f34806ec.png)
+![1](https://user-images.githubusercontent.com/85245803/122641378-a5b7d380-d10d-11eb-8499-3641cd6782a3.png)
 
-Выбор стратегии "Линейная"
+Выбор стратегии "Передвинуть"
 
-![2](https://user-images.githubusercontent.com/85245803/121811236-78ca7300-cc6c-11eb-9cda-d09eee58999b.png)
+![2](https://user-images.githubusercontent.com/85245803/122641410-e9aad880-d10d-11eb-96fe-5404ed121649.png)
 
-"Развлетвляющая"
+"Изменить"
 
-![3](https://user-images.githubusercontent.com/85245803/121811266-85e76200-cc6c-11eb-949b-f95fe60851dc.png)
+![3](https://user-images.githubusercontent.com/85245803/122641413-ec0d3280-d10d-11eb-92a2-e9967b045dfd.png)
 
-"Цикл"
+"Добавить"
 
-![4](https://user-images.githubusercontent.com/85245803/121811273-8a137f80-cc6c-11eb-8f92-f3ae4b5b18e9.png)
+![4](https://user-images.githubusercontent.com/85245803/122641418-ef082300-d10d-11eb-932e-c8be4d71aa0f.png)
+
+Результат применения всех стратегий:
+
+![5](https://user-images.githubusercontent.com/85245803/122641404-ddbf1680-d10d-11eb-9c2b-99602beaf4c0.png)
 
 Кнопка "Очистить" приводит программу в первоначальный вид.
 
